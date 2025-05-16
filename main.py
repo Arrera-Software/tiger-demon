@@ -2,6 +2,7 @@ from CTigerDemon import *
 
 def main():
     tigerDemon = CTigerDemon("ryley","https://arrera-software.fr/depots.json")
+    print(tigerDemon.getInternet())
     print(tigerDemon.checkUpdate())
     print(tigerDemon.getVersionSoft())
 
